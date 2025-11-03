@@ -13,7 +13,6 @@ dependencies = [
     "s3tokenizer",
     "torch==2.9.0",
     "torchaudio==2.9.0",
-    "transformers==4.46.3",
     "diffusers==0.29.0",
     "resemble-perth==1.0.1",
     "conformer==0.3.2",
@@ -21,6 +20,7 @@ dependencies = [
     "spacy-pkuseg",
     "pykakasi==2.3.0",
     "numpy>=1.25.2",
+    "transformers>=4.57.1",
 ]
 
 [project.urls]
