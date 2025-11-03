@@ -478,6 +478,7 @@ dependencies = [
     { name = "librosa" },
     { name = "numpy", version = "2.2.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
     { name = "numpy", version = "2.3.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
+    { name = "perth" },
     { name = "pykakasi" },
     { name = "resemble-perth" },
     { name = "s3tokenizer" },
@@ -505,6 +506,7 @@ requires-dist = [
     { name = "ipywidgets", marker = "extra == 'dev'", specifier = ">=8.1.8" },
     { name = "librosa", specifier = "==0.11.0" },
     { name = "numpy", specifier = ">=1.25.2" },
+    { name = "perth", specifier = ">=1.0.0" },
     { name = "pykakasi", specifier = "==2.3.0" },
     { name = "resemble-perth", specifier = "==1.0.1" },
     { name = "s3tokenizer" },
@@ -2051,6 +2053,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/d4/de/53e0bcf53d13e005b
 wheels = [
     { url = "https://files.pythonhosted.org/packages/16/32/f8e3c85d1d5250232a5d3477a2a28cc291968ff175caeadaf3cc19ce0e4a/parso-0.8.5-py2.py3-none-any.whl", hash = "sha256:646204b5ee239c396d040b90f9e272e9a8017c630092bf59980beb62fd033887", size = 106668, upload-time = "2025-08-23T15:15:25.663Z" },
 ]
+
+[[package]]
+name = "perth"
+version = "1.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/49/ca/3bfa6b12f28b30ef64a2e63405f9008ae50c014ffd5ef85a4ec00245b29c/perth-1.0.0.tar.gz", hash = "sha256:7a39f7e4b051e670e7667a0b495b3535c550838df6d972352a7126b17849f169", size = 1724, upload-time = "2015-07-24T14:50:30.385Z" }
 
 [[package]]
 name = "pexpect"
